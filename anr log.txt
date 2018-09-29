@@ -1,0 +1,118 @@
+09-29 13:50:07.858 2286-2373/com.android.launcher W/OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-29 13:50:08.269 20855-20855/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+09-29 13:50:08.269 20855-20855/? E/android.os.Debug: failed to load memtrack module: -2
+09-29 13:50:08.311 20868-20877/? E/art: Failed sending reply to debugger: Broken pipe
+09-29 13:50:08.335 20868-20868/? W/art: Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+09-29 13:50:08.408 20868-20890/? W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+09-29 13:50:08.878 20868-20868/? E/SpeechKit: -142892704 [534 ms] static std::string SpeechKit::JString::createUtf8FromJavaString(jstring): Invalid code point
+09-29 13:50:08.885 20868-20897/? W/SSLCertificateSocketFactory: Bypassing SSL security checks at caller's request
+09-29 13:50:09.290 20868-20899/? W/art: Attempt to remove local handle scope entry from IRT, ignoring
+09-29 13:50:09.290 20868-20899/? W/art: Attempt to remove local handle scope entry from IRT, ignoring
+09-29 13:50:09.290 20868-20899/? W/art: Attempt to remove local handle scope entry from IRT, ignoring
+09-29 13:50:09.295 1175-1175/? E/AudioMixer: AudioMixer::getTrackName out of available tracks
+09-29 13:50:09.295 1175-1175/? E/AudioFlinger: no more track names available
+09-29 13:50:09.295 1175-1175/? E/AudioFlinger: createTrack_l() initCheck failed -12; no control block?
+09-29 13:50:09.295 20868-20892/? E/AudioTrack: AudioFlinger could not create track, status: -12
+09-29 13:50:09.295 20868-20892/? E/AudioTrack-JNI: Error -12 initializing AudioTrack
+09-29 13:50:09.295 20868-20892/? E/android.media.AudioTrack: Error code -20 when initializing AudioTrack.
+09-29 13:50:09.299 20868-20892/? E/SpeechKit: -194657152 [955 ms] static void SpeechKit::WorkingThread<Target, State>::workingThreadFunc(void*) [with Target = SpeechKit::VocalizerProcess; State = SpeechKit::VocalizerState] std::exception is thrown: java.lang.IllegalStateException: pause() called on uninitialized AudioTrack.
+09-29 13:51:53.031 20923-20923/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+09-29 13:51:53.031 20923-20923/? E/android.os.Debug: failed to load memtrack module: -2
+09-29 13:51:53.043 1532-1636/system_process W/InputDispatcher: channel '36ee8796 com.punksta.apps.speechfail/com.punksta.apps.yandexspeechfail.TestActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+09-29 13:51:53.043 1532-1636/system_process E/InputDispatcher: channel '36ee8796 com.punksta.apps.speechfail/com.punksta.apps.yandexspeechfail.TestActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+09-29 13:51:53.043 1532-1554/system_process W/InputDispatcher: Attempted to unregister already unregistered input channel '36ee8796 com.punksta.apps.speechfail/com.punksta.apps.yandexspeechfail.TestActivity (server)'
+09-29 13:51:53.045 1532-2149/system_process W/ActivityManager: Force removing ActivityRecord{34f818e6 u0 com.punksta.apps.speechfail/com.punksta.apps.yandexspeechfail.TestActivity t49}: app died, no saved state
+09-29 13:51:53.046 1532-2153/system_process W/ActivityManager: Spurious death for ProcessRecord{271cf770 20868:com.punksta.apps.speechfail/u0a56}, curProc for 20868: null
+09-29 13:51:53.179 1532-1830/system_process W/InputMethodManagerService: Got RemoteException sending setActive(false) notification to pid 20868 uid 10056
+09-29 13:51:53.338 20937-20937/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+09-29 13:51:53.338 20937-20937/? E/android.os.Debug: failed to load memtrack module: -2
+09-29 13:51:59.705 20956-20956/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+09-29 13:51:59.705 20956-20956/? E/android.os.Debug: failed to load memtrack module: -2
+09-29 13:51:59.920 20970-20970/? E/cutils-trace: Error opening trace file: Permission denied (13)
+09-29 13:52:00.034 2286-2373/com.android.launcher W/OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-29 13:52:00.110 20970-20972/? W/dex2oat: Before Android 4.1, method int android.support.v7.widget.DropDownListView.lookForSelectablePosition(int, boolean) would have incorrectly overridden the package-private method in android.widget.ListView
+09-29 13:52:00.134 20970-20973/? W/dex2oat: Before Android 4.1, method int android.support.v7.widget.MenuPopupWindow$MenuDropDownListView.lookForSelectablePosition(int, boolean) would have incorrectly overridden the package-private method in android.widget.ListView
+09-29 13:52:00.147 20970-20970/? W/dex2oat: Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+09-29 13:52:01.342 1532-1568/system_process W/PackageManager: Code path for pkg : com.punksta.apps.speechfail changing from /data/app/com.punksta.apps.speechfail-1 to /data/app/com.punksta.apps.speechfail-2
+09-29 13:52:01.342 1532-1568/system_process W/PackageManager: Resource path for pkg : com.punksta.apps.speechfail changing from /data/app/com.punksta.apps.speechfail-1 to /data/app/com.punksta.apps.speechfail-2
+09-29 13:52:01.350 1532-1568/system_process W/PackageManager: Unknown permission android.permission.FOREGROUND_SERVICE in package com.punksta.apps.speechfail
+09-29 13:52:01.350 1532-1568/system_process W/PackageManager: Unknown permission android.permission.REQUEST_INSTALL_PACKAGES in package com.punksta.apps.speechfail
+09-29 13:52:01.365 1532-1568/system_process W/Settings: Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+09-29 13:52:01.368 12622-12622/com.android.keychain W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1686 android.content.ContextWrapper.startService:515 android.content.ContextWrapper.startService:515 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2579
+09-29 13:52:01.375 1532-1532/system_process W/BackupManagerService: Removing schedule queue dupe of com.punksta.apps.speechfail
+09-29 13:52:01.382 1532-1557/system_process W/VoiceInteractionManagerService: no available voice recognition services found for user 0
+09-29 13:52:01.820 20981-20981/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+09-29 13:52:01.820 20981-20981/? E/android.os.Debug: failed to load memtrack module: -2
+09-29 13:52:01.900 20994-20994/? W/art: Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+09-29 13:52:01.972 20994-21016/? W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+09-29 13:52:02.434 20994-20994/? E/SpeechKit: -142892704 [526 ms] static std::string SpeechKit::JString::createUtf8FromJavaString(jstring): Invalid code point
+09-29 13:52:02.439 20994-21022/? W/SSLCertificateSocketFactory: Bypassing SSL security checks at caller's request
+09-29 13:52:02.932 20994-20994/com.punksta.apps.speechfail E/SpeechKit: -142892704 [1025 ms] static std::string SpeechKit::JString::createUtf8FromJavaString(jstring): Invalid code point
+09-29 13:52:02.936 20994-21031/com.punksta.apps.speechfail W/SSLCertificateSocketFactory: Bypassing SSL security checks at caller's request
+09-29 13:52:02.970 20994-21024/com.punksta.apps.speechfail W/art: Attempt to remove local handle scope entry from IRT, ignoring
+09-29 13:52:02.970 20994-21024/com.punksta.apps.speechfail W/art: Attempt to remove local handle scope entry from IRT, ignoring
+09-29 13:52:02.970 20994-21024/com.punksta.apps.speechfail W/art: Attempt to remove local handle scope entry from IRT, ignoring
+09-29 13:52:03.379 20994-21034/com.punksta.apps.speechfail W/art: Attempt to remove local handle scope entry from IRT, ignoring
+09-29 13:52:03.379 20994-21034/com.punksta.apps.speechfail W/art: Attempt to remove local handle scope entry from IRT, ignoring
+09-29 13:52:03.380 20994-21034/com.punksta.apps.speechfail W/art: Attempt to remove local handle scope entry from IRT, ignoring
+09-29 13:52:03.385 1175-1606/? E/AudioMixer: AudioMixer::getTrackName out of available tracks
+09-29 13:52:03.385 1175-1606/? E/AudioFlinger: no more track names available
+09-29 13:52:03.385 1175-1606/? E/AudioFlinger: createTrack_l() initCheck failed -12; no control block?
+09-29 13:52:03.385 20994-21027/com.punksta.apps.speechfail E/AudioTrack: AudioFlinger could not create track, status: -12
+09-29 13:52:03.385 20994-21027/com.punksta.apps.speechfail E/AudioTrack-JNI: Error -12 initializing AudioTrack
+09-29 13:52:03.385 20994-21027/com.punksta.apps.speechfail E/android.media.AudioTrack: Error code -20 when initializing AudioTrack.
+09-29 13:52:03.391 20994-21027/com.punksta.apps.speechfail E/SpeechKit: -194679552 [1483 ms] static void SpeechKit::WorkingThread<Target, State>::workingThreadFunc(void*) [with Target = SpeechKit::VocalizerProcess; State = SpeechKit::VocalizerState] std::exception is thrown: java.lang.IllegalStateException: pause() called on uninitialized AudioTrack.
+09-29 13:52:03.600 1532-1712/system_process W/AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by client
+09-29 13:52:03.600 1175-1713/? E/AudioMixer: AudioMixer::getTrackName out of available tracks
+09-29 13:52:03.600 1175-1713/? E/AudioFlinger: no more track names available
+09-29 13:52:03.600 1175-1713/? E/AudioFlinger: createTrack_l() initCheck failed -12; no control block?
+09-29 13:52:03.601 1532-1712/system_process E/AudioTrack: AudioFlinger could not create track, status: -12
+09-29 13:52:03.602 1532-1712/system_process E/SoundPool: Error creating AudioTrack
+09-29 13:52:03.605 1871-1871/com.android.systemui W/ResourceType: No package identifier when getting value for resource number 0x00000000
+09-29 13:52:03.605 1871-1871/com.android.systemui W/PackageManager: Failure retrieving resources for com.punksta.apps.speechfail: Resource ID #0x0
+09-29 13:52:03.615 1165-1165/? E/EGL_emulation: tid 1165: eglCreateSyncKHR(1865): error 0x3004 (EGL_BAD_ATTRIBUTE)
+09-29 13:52:03.665 1871-1871/com.android.systemui W/ResourceType: No package identifier when getting value for resource number 0x00000000
+09-29 13:52:03.665 1871-1871/com.android.systemui W/PackageManager: Failure retrieving resources for com.punksta.apps.speechfail: Resource ID #0x0
+09-29 13:52:05.110 1532-1712/system_process W/AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by client
+09-29 13:52:05.110 1175-1175/? E/AudioMixer: AudioMixer::getTrackName out of available tracks
+09-29 13:52:05.111 1175-1175/? E/AudioFlinger: no more track names available
+09-29 13:52:05.111 1175-1175/? E/AudioFlinger: createTrack_l() initCheck failed -12; no control block?
+09-29 13:52:05.111 1532-1712/system_process E/AudioTrack: AudioFlinger could not create track, status: -12
+09-29 13:52:05.112 1532-1712/system_process E/SoundPool: Error creating AudioTrack
+09-29 13:52:13.656 1532-1558/system_process W/ActivityManager: Activity stop timeout for ActivityRecord{377089e7 u0 com.punksta.apps.speechfail/com.punksta.apps.yandexspeechfail.TestActivity t50}
+09-29 13:52:15.130 1532-1558/system_process W/ActivityManager: Launch timeout has expired, giving up wake lock!
+09-29 13:52:20.102 1532-1712/system_process W/AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by client
+09-29 13:52:20.102 1175-2600/? E/AudioMixer: AudioMixer::getTrackName out of available tracks
+09-29 13:52:20.102 1175-2600/? E/AudioFlinger: no more track names available
+09-29 13:52:20.102 1175-2600/? E/AudioFlinger: createTrack_l() initCheck failed -12; no control block?
+09-29 13:52:20.102 1532-1712/system_process E/AudioTrack: AudioFlinger could not create track, status: -12
+09-29 13:52:20.103 1532-1712/system_process E/SoundPool: Error creating AudioTrack
+09-29 13:52:22.258 1532-1636/system_process W/InputDispatcher: Asynchronous input event injection failed.
+09-29 13:52:27.268 1532-1636/system_process W/InputDispatcher: Asynchronous input event injection timed out.
+09-29 13:52:27.269 1532-1712/system_process W/AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by client
+09-29 13:52:27.269 1175-1606/? E/AudioMixer: AudioMixer::getTrackName out of available tracks
+09-29 13:52:27.269 1175-1606/? E/AudioFlinger: no more track names available
+09-29 13:52:27.269 1175-1606/? E/AudioFlinger: createTrack_l() initCheck failed -12; no control block?
+09-29 13:52:27.269 1532-1712/system_process E/AudioTrack: AudioFlinger could not create track, status: -12
+09-29 13:52:27.269 1532-1712/system_process E/SoundPool: Error creating AudioTrack
+09-29 13:52:28.587 1175-1604/? W/AudioFlinger: write blocked for 1967435 msecs, 19 delayed writes, thread 0xf61b7000
+09-29 13:52:29.434 1532-1558/system_process E/ActivityManager: ANR in com.punksta.apps.speechfail (com.punksta.apps.speechfail/com.punksta.apps.yandexspeechfail.TestActivity)
+    PID: 20994
+    Reason: Input dispatching timed out (Waiting to send key event because the focused window has not finished processing all of the input events that were previously delivered to it.  Outbound queue length: 0.  Wait queue length: 2.)
+    Load: 0.22 / 0.12 / 0.1
+    CPU usage from 7136ms to 2ms ago:
+      2.1% 1169/adbd: 0.1% user + 1.9% kernel / faults: 519 minor
+      1.6% 1165/surfaceflinger: 0.4% user + 1.2% kernel
+      1.4% 1871/com.android.systemui: 0.9% user + 0.4% kernel
+      0.7% 18492/perfd: 0% user + 0.7% kernel
+      0.2% 1532/system_server: 0.1% user + 0.1% kernel / faults: 537 minor
+    1.7% TOTAL: 0.4% user + 1% kernel + 0.2% softirq
+    CPU usage from 1662ms to 2164ms later:
+      3.8% 1169/adbd: 0% user + 3.8% kernel / faults: 66 minor
+        1.9% 1169/adbd: 0% user + 1.9% kernel
+        1.9% 10406/adbd: 0% user + 1.9% kernel
+    1.4% TOTAL: 0% user + 0.9% kernel + 0.4% softirq
+09-29 13:52:29.439 1532-1558/system_process W/ViewRootImpl: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0xc8, repeatCount=1, eventTime=18799761, downTime=18799257, deviceId=-1, source=0x101 }
+09-29 13:53:09.283 1532-1558/system_process W/ActivityManager:   Force finishing activity com.punksta.apps.speechfail/com.punksta.apps.yandexspeechfail.TestActivity
+09-29 13:53:09.284 1532-1712/system_process W/AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by client
+09-29 13:53:09.298 1165-1165/? E/EGL_emulation: tid 1165: eglCreateSyncKHR(1865): error 0x3004 (EGL_BAD_ATTRIBUTE)
